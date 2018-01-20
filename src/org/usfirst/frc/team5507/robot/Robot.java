@@ -241,7 +241,7 @@ public class Robot extends IterativeRobot {
 	{
 		switch(current_state) {
 			case STATE_DRIVE_FORWARD:
-				if(m_timer.get() < 6)
+				if(m_timer.get() < 7)
 				{
 					m_robotDrive.arcadeDrive(-0.5, 0.0);
 				}
